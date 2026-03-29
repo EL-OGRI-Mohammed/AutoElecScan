@@ -1,0 +1,16 @@
+tensorflow>=2.0.0
+opencv-python
+numpy
+Pillow
+
+Webcam application sur votre smartphone
+
+# --- Intelligence Artificielle & Deep Learning ---
+tensorflow>=2.10.0      # Pour charger le modèle .h5 et l'architecture EfficientNetB0
+numpy>=1.21.0           # Pour la manipulation des matrices d'images
+
+# --- Vision par Ordinateur ---
+opencv-python>=4.6.0    # Pour la capture du flux IP Webcam et le prétraitement BGR
+
+# --- Interface Graphique & Affichage ---
+Pillow>=9.0.0           # Pour convertir les images OpenCV en format compatible Tkinter
